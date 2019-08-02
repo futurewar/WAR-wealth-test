@@ -1,0 +1,1756 @@
+/* 
+    @author: feaad
+    @date: Wednesday, 9th January 2019.
+    @time: 10:06 AM
+    @project: Wealth
+    @version: 1.0
+    @update: Wednesday, 9th January 2019.
+    @brief: 
+*/
+
+@import url("roboto/roboto.css");
+@import url("font-awesome/font-awesome.css");
+
+h1,
+h2,
+h3,
+h4,
+h5, 
+h6,
+p,
+a, 
+label {
+    font-family: "Roboto Light";
+}
+
+.dropdown-trigger:hover {
+    background-color: transparent !important;
+}
+
+.slider .indicators {
+    display: inline-block !important;
+    position: absolute !important;
+    text-align: right !important;
+    right: auto !important;
+    left: 1% !important;
+    top: 42.5% !important;
+    bottom: 0 !important;
+    margin: 0 !important;
+}
+
+.slider .indicators .indicator-item {
+    display: block !important;
+    position: relative !important;
+    cursor: pointer !important;
+    height: 5px !important;
+    width: 30px !important;
+    margin: 20px !important;
+    background-color: rgba(169, 169, 169, 0.5) !important;
+    -webkit-transition: background-color 0.3s !important;
+    transition: background-color 0.3s !important;
+    border-radius: 0% !important;
+}
+
+.slider .indicators .indicator-item.active {
+    background-color: #3F88A7 !important;
+}
+
+.slider .slides li .caption {
+    top: 40% !important;
+}
+
+#logoImage {
+    margin-left: 1% !important;
+    width: 2.5% !important;
+    /* height: 2% !important; */
+    vertical-align: middle !important;
+}
+
+.navLogo {
+    position: absolute;
+    color: #fff;
+    display: inline-block;
+    font-size: 2.1rem;
+    padding: 0;
+}
+
+nav {
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+#navMenu li.active>a {
+    color: #3F88A7 !important;
+    background-color: transparent !important;
+    font-family: "Roboto Bold";
+}
+
+#navMenu li.active {
+    background-color: transparent !important;
+}
+
+#navMenu a:hover {
+    background-color: transparent !important;
+}
+
+#navMenu li.active :hover {
+    color: #3F88A7 !important;
+}
+
+#navMenu a:hover {
+    background-color: transparent !important;
+    color: #3F88A7 !important;
+}
+
+
+#signIn {
+    border: 2px solid #3F88A7;
+    border-radius: 5px !important;
+    color: #3F88A7 !important;
+    box-shadow: none !important;
+    font-family: "Roboto Medium";
+}
+
+
+#signUp {
+    border: 2px solid #3F88A7;
+    border-radius: 5px !important;
+    background-color: #3F88A7 !important;
+    box-shadow: none !important;
+    font-family: "Roboto Medium";
+}
+
+#takeSurveyButton {
+    border: 2px solid #fff;
+    border-radius: 5px !important;
+    color: #fff !important;
+    box-shadow: none !important;
+    font-family: "Roboto Medium";
+    background-color: rgba(0, 0, 0, 0.3) !important;
+}
+
+#takeSurveyButton:hover{
+    background-color: #000 !important;
+}
+
+#headerText {
+    top: 30% !important;
+}
+
+#rightText {
+    top: 15% !important;
+}
+
+#leftText {
+    top: 15% !important;
+    left: -22.5%;
+}
+
+#rightText .heading {
+    text-align: right;
+    color: #ffffff;
+    font-family: "Roboto Light";
+}
+
+.heading p{
+    font-size: 95px !important;
+}
+
+#leftText .heading {
+    text-align: right;
+    color: #ffffff;
+    font-family: "Roboto Light";
+}
+
+#rightText hr {
+    width: 20%;
+    float: right;
+    border: 3px solid #3F88A7;
+}
+
+#leftText hr {
+    width: 20%;
+    float: right;
+    border: 3px solid #3F88A7;
+}
+
+#leftText button {
+    border: 2px solid #3F88A7;
+    border-radius: 5px !important;
+    background-color: #3F88A7 !important;
+    box-shadow: none !important;
+    font-family: "Roboto Medium";
+}
+
+#contactText {
+    top: 15% !important;
+    margin-left: 5%;
+}
+
+#contactText hr {
+    width: 10%;
+    float: left;
+    border: 3px solid #ffffff;
+}
+
+#contactUs {
+    top: 2% !important;
+}
+
+#contactUsTable {
+    margin-top: 5% !important;
+}
+
+#contactUsTable td {
+    vertical-align: top !important;
+}
+
+#contactUsTable p span {
+    display: block;
+}
+
+#contactUsTable p img {
+    width: 10%;
+    height: 10%;
+}
+
+#cuHighligthText {
+    color: #0095ff;
+}
+
+#slider4Footer p {
+    bottom: 2%;
+    position: fixed;
+    left: 2%;
+    color: #ffffff;
+}
+
+#footer p {
+    bottom: 0.5%;
+    position: fixed;
+    right: 2%;
+    color: #ffffff;
+}
+
+#footerIcons {
+    bottom: 10%;
+    position: fixed;
+    right: 2%;
+}
+
+#footer p {
+    font-family: "Roboto Bold";
+}
+
+#footer p span {
+    font-family: "Roboto Light";
+}
+
+#username {
+    font-family: "Roboto Bold";
+    line-height: 300%;
+    position: relative;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+#username span {
+    font-family: "Roboto Light";
+    display: block;
+    text-align: right;
+    line-height: 0;
+    color: #3F88A7 !important;
+}
+
+#mainTitle {
+    font-family: "Roboto Bold";
+}
+
+.signinMain {
+    height: 100vh;
+    width: 30vw;
+    position: fixed;
+}
+
+.signinMain img {
+    position: absolute;
+    width: 280%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.2;
+}
+
+.signinMain form {
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-30%, -50%);
+}
+
+.signinMain form button {
+    font-family: "Roboto Bold";
+    color: #ffffff;
+    background-color: #003052 !important;
+    width: 100%;
+}
+
+.signinSub {
+    height: 100vh;
+    width: 70vw;
+    float: right;
+    position: relative;
+    background-image: url("../storage/images/background/signin.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.signinSub-text {
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.signinSub-text h1 {
+    font-family: "Roboto Bold";
+    font-size: 72px !important;
+}
+
+#fpass a {
+    font-family: "Roboto LightItalic" !important;
+    text-decoration: none !important;
+}
+
+#backHomeSignIn {
+    text-align: left !important;
+    font-family: "Roboto Regular";
+    position: absolute;
+    left: 7.5%;
+    top: 2.5%;
+    font-size: 16px !important;
+    opacity: 1 !important;
+}
+
+#backHomeSignIn a {
+    color: #003052 !important;
+    text-decoration: none !important;
+}
+
+#signupHomeSignIn {
+    text-align: left !important;
+    font-family: "Roboto Light";
+    vertical-align: bottom;
+    line-height: 5px;
+    bottom: 2.5%;
+    position: absolute;
+    left: 7.5%;
+    color: #003052 !important;
+}
+
+#signupHomeSignIn a {
+    text-decoration-line: underline;
+    font-family: "Roboto Bold";
+    color: #003052 !important;
+}
+
+.signupMain {
+    height: 100vh;
+    width: 30vw;
+    float: right;
+    right: 0;
+    position: fixed;
+
+}
+
+.signupMain img {
+    position: absolute;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.signupMain form {
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-30%, -50%);
+}
+
+.signupMain form button {
+    font-family: "Roboto Bold";
+    color: #ffffff;
+    background-color: #003052 !important;
+    width: 100%;
+}
+
+.signupSub {
+    height: 100vh;
+    width: 70vw;
+    position: fixed;
+    background-image: url("../storage/images/background/signup.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.signupSub-text {
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.signupSub-text h1 {
+    font-family: "Roboto Regular";
+    font-size: 72px !important;
+}
+
+#backHomeSignUp {
+    text-align: right !important;
+    font-family: "Roboto Regular";
+    position: absolute;
+    right: 7.5%;
+    top: 2.5%;
+    font-size: 16px !important;
+    opacity: 1 !important;
+}
+
+#backHomeSignUp a {
+    color: #003052 !important;
+    text-decoration: none !important;
+}
+
+#signinHomeSignUp {
+    text-align: right !important;
+    font-family: "Roboto Light";
+    vertical-align: bottom;
+    line-height: 5px;
+    bottom: 2.5%;
+    position: absolute;
+    right: 7.5%;
+    color: #003052 !important;
+}
+
+#signinHomeSignUp a {
+    text-decoration-line: underline;
+    font-family: "Roboto Bold";
+    color: #003052 !important;
+}
+
+
+.input-field input:focus+label {
+    color: #003052 !important;
+}
+
+.row .input-field input:focus {
+    border-bottom: 1px solid #003052 !important;
+    box-shadow: 0 1px 0 0 #003052 !important
+}
+
+.input-field label {
+    color: #003052;
+}
+
+
+.about {
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    position: fixed;
+    background-image: url("../storage/images/background/aboutUs.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: scroll !important;
+}
+
+#structure {
+    width: 52%;
+    position: relative;
+}
+
+.textFrame {
+    font-family: "Roboto Bold" !important;
+    width: 50%;
+    float: right;
+    color: #000;
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    overflow-y: hidden !important;
+}
+
+.info-slide {
+    width: 90%;
+    height: 75%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow-y: scroll;
+}
+
+.iconFrame img {
+    width: 40%;
+    height: auto;
+    position: fixed;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+
+.slider-info p{
+    font-family: "Roboto Regular" !important;
+    line-height: 2.25rem;
+}
+
+.slider-info {
+    width: 85vw;
+    height: auto;
+    color: #ffffff;
+    text-align: justify;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Roboto Regular" !important;
+
+}
+
+.arrow {
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+    margin-top: -35px;
+    height: 70px;
+    background-color: transparent;
+}
+
+#left {
+    left: 48%;
+}
+
+#right {
+    right: 48%;
+}
+
+#arrow-left {
+    border: solid #ffffff;
+    border-width: 0 0 5px 5px;
+    display: inline-block;
+    padding: 8px;
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    -webkit-transform: translate(-50%, -50%) rotate(45deg)
+}
+
+#arrow-right {
+    border: solid #ffffff;
+    border-width: 5px 5px 0 0;
+    display: inline-block;
+    padding: 8px;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    -webkit-transform: translate(-50%, -50%) rotate(45deg)
+}
+#main{
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    position: fixed;
+    background-image: url("../storage/images/background/aboutUs.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: scroll !important;
+    
+}
+
+footer{
+    background-color: transparent !important;
+}
+
+
+
+#footer_icon{
+    width: 70%;
+    height: 9%;
+    position: relative;
+    left: 15%;
+}
+
+.container_arrow i {
+    /* margin: 0 auto !important; */
+    font-size: 390% !important;
+    color: #fff;
+    position: relative;
+    right: 30%;
+    top: 3%;
+}
+
+.container_arrow .icon-left {
+    position: relative;
+    top: 1%;
+    right: 26.3%;
+}
+
+.container_arrow .icon-right {
+    position: relative;
+    top: 1%;
+    right: 23.2%;
+}
+
+
+.contain{
+    position: relative;
+    top:8%;
+    margin:0 auto;
+    max-width: 1850px;
+    width: 90%;
+}
+
+#main h5{
+    font-family: "Roboto Bold";
+    left: 5%;
+    right: 5%;
+    text-align: justify;
+    color:  #0C4E77 !important;
+}
+
+#main p{
+    font-family: "Roboto Regular";
+    left: 5%;
+    right: 5%;
+    text-align: justify;
+    color: #000;
+}
+
+#main_philosophy{
+    background-image: url('/../storage/images/background/philosophy.png');
+    height: 100%;
+    background-position: center;
+    background-repeat: repeat-y !important;
+    background-size: cover;
+    overflow-x: hidden;
+    bottom: 0;
+    top: 0;
+    
+}
+
+#inactive{
+    color: #000 !important;
+}
+
+/* #main a{
+    font-family: "Roboto Bold";
+    color: #040530 !important;
+} */
+
+#footer_kente{
+    width: 20%;
+    position: relative;
+    left: 80%;
+    overflow-x: hidden !important;
+    
+    /* position: absolute;
+    top: 50%; */
+    /* position: relative;
+    clip: rect(0px,100px,100px,0px);
+    width:50px;
+    float: right !important; */
+}
+
+/* .container_kente {
+    position: absolute;
+}  */
+
+.phil_title h4{
+    /* position: relative; */
+    color: #fff !important;    
+}
+
+.phil_title hr{
+    width: 15%;
+    float: right;
+    border: 3px solid #0095FF;
+}
+
+.vl {
+    /* position: relative;
+    border: 1px solid #ffffff;
+    border-style: dashed;
+    left: 53%;
+    top: 20%;
+    bottom: 20%; 
+    width: 70%; */
+    position:relative;
+    border-left: 1px solid #fff;
+    height: 360px;
+    top: 70%;
+  }
+
+
+
+.list li{
+    color: #fff;
+    line-height: 4.6;
+    font-size: 18px;
+  
+}
+
+.list #first::before{
+    font-size: 17px;
+    content: "\2780";
+}
+
+.list li:hover{
+    color: #012137;
+    font-size: 20px;
+}
+
+.list #first:hover::before{
+    content: "\279C";
+}
+
+.list #sec::before{
+    font-size: 17px;
+    content: "\2781";
+}
+
+.list #sec:hover::before{
+    content: "\279C";
+}
+
+.list #third::before{
+    font-size: 17px;
+    content: "\2782";
+}
+
+.list #third:hover::before{
+    content: "\279C";
+}
+
+.list #fourth::before{
+    font-size: 17px;
+    content: "\2783";
+}
+
+.list #fourth:hover::before{
+    content: "\279C";
+}
+.list #fifth::before{
+    font-size: 17px;
+    content: "\2784";
+}
+
+.list #fifth:hover::before{
+    content: "\279C";
+}
+
+
+.list li:visited{
+    color: #012137;
+}
+
+/* .list li:hover{
+    color: #C69426;
+    line-height: 5.8;
+    list-style: square inside url('/../storage/images/background/philosophy.png');
+} */
+
+#main_philosophy .contain{
+    position: relative !important;
+    top: 0% !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.1); 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.1);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+
+#info1 {
+    text-align: justify;
+    color: #4B4949 !important;
+    position: relative !important;
+    left: 13% !important;
+}
+
+.hide{
+    display: none !important;
+} 
+
+.top h5{
+    text-align: justify;
+    color: #fff !important;
+}
+
+.top{
+    text-align: justify;
+    line-height:2;
+    color: #fff;
+}
+
+.arrow-down{
+    margin-left: 48%;
+    color: #fff;
+}
+
+.container_move i{
+    font-size: 390% !important;
+    color: #fff;
+    position: relative;
+    right: 30%;
+    top: 3%;
+}
+
+#frame_footer p {
+    bottom: 2%;
+    position: fixed;
+    left: 2%;
+    color: #ffffff;
+}
+
+.framework {
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    position: fixed;
+    background-image: url("/../storage/images/background/background2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: scroll;
+}
+
+.framework_content h5{
+    color: #0C4E77 !important;
+    font-family: "Roboto Regular";
+}
+
+.frame_title h4{
+    color: #000 !important;    
+}
+.container{
+    top: 3% !important;
+    left: 19%;
+}
+/* .container{
+    position: absolute;
+    top:4%;
+    left: 12%;
+    right: 12%;
+    margin:0 auto;
+    max-width: 1850px;
+    width: 90%;
+} */
+
+.frame_title hr{
+    width: 18%;
+    float: right;
+    color: #0C4E77 !important;
+    border: 3px solid;
+}
+
+.sticky_footer{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.navigation_arrow i{
+    font-size: 55px;
+}
+
+.frame-info{
+    display: none;
+}
+
+
+.frame-info p{
+    text-align: justify;
+    color: #040530 !important;
+}
+
+.frame-info h5{
+    text-align: justify;
+    color: #ffffff !important;
+    font-family: "Roboto Bold" !important;
+}
+
+.philosophy {
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    position: fixed;
+    background-image: url("/../storage/images/background/framework.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: scroll;
+}
+
+/* Survey */
+
+
+.personality {
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    position: fixed;
+    background-image: url("/../storage/images/background/personality.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: scroll;
+}
+
+.personality_title h4{
+    color: #fff !important;    
+}
+
+.personality_title hr{
+    width: 15%;
+    float: right;
+    border: 3px solid #FFD93F;
+}
+
+.subtitle{
+    color: #fff !important;
+}
+
+form {
+    line-height: 0;
+    margin-top: 10% !important;
+}
+
+label {
+    color: #fff !important;
+}
+
+#surveyUserOpts {
+    margin-top: 2% !important;
+    color: #ffffff !important;
+  }
+  
+#surveyUserOpts label {
+    color: #ffffff !important;
+}
+
+[type="radio"]:not(:checked) + span::before, 
+[type="radio"]:not(:checked) + span::after {
+    border: 2px solid #ffffff;
+}
+
+[type="radio"].with-gap:checked + span::before, 
+[type="radio"].with-gap:checked + span::after {
+    border: 2px solid #FFD93F;
+}
+
+[type="radio"]:checked + span::after, 
+[type="radio"].with-gap:checked + span::after {
+    background-color: #FFD93F;
+
+}
+  
+
+.res{
+    color: #fff !important;
+}
+
+#surveyDone {
+    border: 2px solid #fff;
+    border-radius: 5px !important;
+    color: #fff !important;
+    box-shadow: none !important;
+    font-family: "Roboto Medium";
+
+}
+
+#surveyDone:hover{
+    background-color: rgba(0, 0, 0, 0.3) !important;
+}
+
+
+/* Results */
+#result_img{
+    width:30%;
+    position: absolute;
+}
+
+.result_vl {
+    position: absolute;
+    border-left: 5px solid #fff;
+    height: 420px;
+    top: 20%;
+    right: 5%;
+}
+
+#result_light{
+    position: absolute;
+    height: 20%;
+    width: 5%;
+    right: 10%;
+    top: -1%;
+}
+
+.image{
+margin: auto;
+  width: 90%;
+  padding: 10px;
+}
+
+.text{
+    position: absolute;
+    display: block;
+    right: 3%;
+    color:#fff !important; 
+}
+
+.text h5{
+    text-align: right;
+    color: #AACFE9 !important;
+}
+
+.text p{
+    text-align: right;
+    color: #AACFE9 !important;
+}
+
+.result {
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    position: fixed;
+    background-image: url("/../storage/images/background/result.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: scroll;
+}
+
+button {
+    text-transform: none !important;
+}
+
+.btn3 {
+    border: 3px solid #fff !important;
+    border-radius: 300px !important;
+    text-transform: none !important;
+    color: #fff;
+    background-color: transparent !important;
+    font-size: 17px;
+    margin-top: 15%;
+    line-height: 0;
+}
+
+.head{
+    color: #fff !important;
+    text-align: left !important;
+}
+
+.head h6{
+    color: #C69426 !important;
+}
+
+.head h4{
+  font-size: 35px !important;
+}
+
+.head hr{
+    width: 20%;
+    border: 3px solid #C69426;
+    float: left;
+
+}
+
+/* #moneySensible{
+    display: none;
+} */
+
+/* #smartOne{
+    display: none;
+} */
+
+/* a #bigSpender{
+    display: none;
+} */
+
+.heading h1{
+    top: 31% !important;
+    position: absolute;
+    left: 25%;
+    color: #fff !important;
+}
+
+.backdrop #back{
+    width:30%;
+    position: absolute;
+}
+
+#back{
+    position: fixed;
+    width: 70vw;
+    left: 0;
+}
+
+.signupMain label{
+    color: #003052 !important;
+}
+
+.frame label{
+    color: #003052 !important;
+}
+
+
+.frame {
+    width: 90%;
+    height: 75%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.frame h6{
+    font-family: "Roboto Bold";
+    color: #003052 !important;
+}
+
+#phil .collapsible-body{
+    color: #fff;
+}
+
+#phil .collapsible-header{
+    background-color: #0C4E77 !important;
+    color: #fff;
+}
+
+#button{
+    position: relative;
+    margin-top: -0.02%;
+    width: 4% !important;
+    height: 4%;
+    margin-right: 1%;
+}
+
+/*framework container*/
+.contains{
+    position: relative;
+    top:8%;
+    margin:0 auto;
+    max-width: 1850px;
+    width: 90%;
+}
+
+
+
+#about .collapsible-header{
+    background-color:rgba(255, 255, 255, 0.5) !important;
+    color: #0C4E77;
+}
+
+#about .collapsible-body h6{
+    color: #0C4E77;
+}
+
+.input-field .prefix{
+    color: #003052 !important;
+}
+
+/* journey page css */
+
+.journey{
+    background-color: #C8B7A6;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    position: fixed;
+    background-image: url("/../storage/images/background/journey_bk.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: scroll;
+    overflow-x: hidden !important;
+}
+.journey_contain{
+    position: relative !important;
+    top:10% !important;
+    margin:0 auto;
+    max-width: 1850px;
+    width: 100%;
+    overflow-x: hidden !important;
+    
+}
+/* .page{
+    position: relative !important;
+    width: 100%;
+    top: 40% !important;
+} */
+
+#journey_title{
+    position: relative !important;
+    left: 13% !important;
+   
+}
+
+#journey_title h4{
+    color: #fff !important;   
+}
+
+#journey_title hr{
+    width: 18%;
+    float: left;
+    color: #114358 !important;
+    border: 3px solid;
+}
+
+.journey h6{
+    color: #114358 !important;
+    font-family: "Roboto Regular";
+}
+
+#desc1 p{
+    color: #fff;
+    position: relative !important;
+    left: 13% !important;
+}
+
+#create-info{
+    color: #fff;
+    position: relative !important;
+    left: 13% !important;
+}
+
+/* wheel css */
+.wheel{
+    position: relative !important;
+    display: flex;
+    justify-content: center
+}
+
+.shell a {
+    display: inline-block;
+}
+
+.shell {
+    position: relative;
+    display: inline-block;
+    width: 350px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+
+}
+
+.shell>* {
+    position: absolute;
+    border-radius: 50%;
+}
+
+div a {
+    transition: .8s;
+}
+
+.shell>.outer {
+    width: 100%;
+    height: 100%;
+    background-image: url("/../storage/images/icons/wheel/plan_protect.svg");
+}
+
+.shell>.mid {
+    width: 75%;
+    height: 75%;
+    /* overflow: hidden; */
+    padding-left: 4px;
+    padding-top: 4px;
+}
+
+.shell>.inner {
+    width: 42%;
+    height: 42%;
+    background-image: url("/../storage/images/icons/wheel/center.svg");
+}
+
+.mid>a {
+    width: 50%;
+    height: 50%;
+    margin-left: -4px;
+    margin-top: -4px;
+    box-sizing: content-box;
+}
+.quadrant1{
+    background-image: url("/../storage/images/icons/wheel/create_back.svg");
+}
+.quadrant2{
+    background-image: url("/../storage/images/icons/wheel/live_back.svg");
+}
+.quadrant3{
+    background-image: url("/../storage/images/icons/wheel/save_back.svg");
+}
+.quadrant4{
+    background-image: url("/../storage/images/icons/wheel/share_back.svg");
+}
+
+.quadrant4:hover { 
+    transform: scale(1.12); 
+}
+
+.quadrant1:hover { 
+    transform: scale(1.12); 
+}
+
+.quadrant2:hover { 
+    transform: scale(1.12); 
+}
+.quadrant3:hover { 
+    transform: scale(1.12); 
+}
+.outer:hover { 
+    transform: scale(1.1);
+}
+/* .inner:hover { transform: scale(1.05);} */
+
+/* Create & Build */
+.journey_background {
+    background-color: #071A23;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    position: fixed;
+    background-image: url("/../storage/images/background/c.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: scroll;
+}
+
+.journey_contents{
+    color: #fff;
+}
+
+.journey_container{
+    position: relative;
+    top:30%;
+    margin:0 auto;
+    max-width: 1850px;
+    width: 90%;
+}
+
+
+/* .journey_background {
+    height: 100vh;
+    top: 0;
+    position: absolute;
+    background-color: #071A23;
+    background-image:  url("/../storage/images/background/c.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: scroll;
+} */
+
+.buttonNew i {
+  color: #fff !important; 
+  -webkit-animation: pulse-animation 1s cubic-bezier(0.24, 0, 0.38, 1) infinite;
+  animation: pulse-animation 1s cubic-bezier(0.24, 0, 0.38, 1) infinite;
+  font-size: 40px;
+}
+
+.buttonNew .btn-floating{
+    background-color: transparent !important;
+}
+
+#butt{
+    position: relative !important;
+    float: right !important;
+}
+
+#newpage {
+    display: none;
+    height: 100vh;
+    width: 100vw;
+    bottom: 0;
+    position: fixed;
+    background-image: url("/../storage/images/background/framework.png");
+    background-color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+   
+}
+
+
+.tips .col.m6{
+    margin-left: 25% !important;
+    margin-right: 50% !important;
+}
+
+#graph{
+    position: relative;
+    /* top: 3%; */
+    left: 2%;
+    width: 65%;
+}
+
+.container{
+    position: absolute;
+    top: 40%;
+    line-height: 2;
+}
+
+#newpage li{
+    list-style-type: disc;
+    left: 30%;
+}
+
+#entrepreneur{
+    color: #22ABD6;
+}
+#employee{
+    color: #9B7A1F;
+}
+
+#self{
+    color: #003052;
+}
+
+#passive{
+    color: #BC59B9;
+}
+
+#card_heading{
+    text-align: center;
+}
+/* #newpage{
+    background-color: yellowgreen;
+    height: 100vh;
+} */
+
+.buttonNew {
+    bottom: 2%;
+    position: fixed;
+    right: 50% !important;   
+}
+
+#create_title{
+    display: none;
+}
+
+#live_title{
+    display: none;
+}
+ 
+#save_title{
+    display: none;
+}
+
+#share_title{
+    display: none;
+}
+
+#plan_title{
+    display: none;
+}
+
+/* Save and Invest */
+#activityButton {
+    border: 2px solid #fff;
+    border-radius: 5px !important;
+    color: #fff !important;
+    box-shadow: none !important;
+    font-family: "Roboto Medium";
+    float: right;
+}
+
+
+.activity {
+    background-color: #3E6A72;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    position: fixed;
+    background-image: url("/../storage/images/background/personality.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#activityDone {
+    border: 2px solid #fff;
+    border-radius: 5px !important;
+    color: #fff !important;
+    box-shadow: none !important;
+    font-family: "Roboto Medium";
+    float: right;
+
+}
+
+
+ .activity_container{
+    position: absolute;
+    top:10%;
+    left: 2%;
+    margin:0 auto;
+    max-width: 1850px;
+    width: 90%;
+    color: #fff;
+} 
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0; 
+}
+
+input[type=number] {
+    -moz-appearance:textfield; 
+}
+
+.saveResults {
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    position: fixed;
+    background-image: url("/../storage/images/background/save_type_background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: scroll;
+}
+
+#saveIcon{
+    position: absolute;
+    left: 48%;
+}
+#footer_save{
+    bottom: 2%;
+    position: fixed;
+    left: 2%;
+}
+
+#footer_save2{
+    bottom: 2%;
+    position: fixed;
+    right: 2%;
+}
+
+#balancedSaving{
+    color: #ffffff !important;
+    float: right;
+    font-size: 1vw;
+
+}
+
+#aggressiveSaving{
+    float: left !important;
+    color: #FFAF00 !important;
+    font-size: 1vw;
+
+}
+
+#first_intro{
+    color: #FFAF00 !important;    
+}
+
+#sec_intro, #third_intro{
+    color: #ffffff;
+}
+
+#agg_strategy{
+    /* position: absolute;
+    width: 70%;
+    height: 220%;
+    margin-left: 15% */
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    top: 90%;
+}
+
+.balancedStrategy {
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    position: fixed;
+    background-image: url("/../storage/images/background/strategybackground.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: scroll;
+}
+
+.balancedStrategy li{
+    list-style-type: disc !important;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.aggressiveStrategy {
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    position: fixed;
+    background-image: url("/../storage/images/background/strategybackground.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: scroll;
+}
+
+.aggressiveStrategy li{
+    list-style-type: disc !important;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.strategy_title h4{
+    color: #fff !important;    
+}
+
+.strategy_title hr{
+    width: 27%;
+    float: right;
+    border: 3px solid #32BBC5;
+}
+
+#backToJourney {
+    text-align: left !important;
+    font-family: "Roboto Regular";
+    position: absolute;
+    top: 2.5%;
+    font-size: 16px !important;
+    opacity: 1 !important;
+}
+
+#backToJourney a {
+    color: #ffffff !important;
+    text-decoration: none !important;
+}
+
+#leadGeneration{
+    bottom: 2%;
+    position: fixed;
+    left: 36% !important;
+}
+
+#leadButton{
+    color: #4B4949;
+}
+
+.activity_container .input-field input {
+    color: #fff !important;
+}
+
+
+
+@media only screen and (max-width: 992px) {
+    #leftText {
+        top: 12% !important;
+        left: 10%;
+    }
+    #logoImage {
+        width: 5% !important;
+        float: right;
+        margin: 2%;
+    }
+    .signinMain, .signupMain {
+        width: 40vw;
+    }
+    .signinSub, .signupSub {
+        width: 60vw;
+    }
+    .container{
+        top: 3% !important;
+        left: 10%;
+    }
+    #saveActivityForm {
+        line-height: 1 !important;
+    }
+}
+@media only screen and (max-width: 658px) {
+    .caption{
+        font-size: .5rem;
+    }
+    .shell {
+        position: relative;
+        display: inline-block;
+        width: 250px;
+        height: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+    
+    }
+    .signinMain, .signupMain {
+        width: 100vw;
+    }
+    .signinSub, .signupSub {
+        display: none;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    h5{
+        font-size: 1.1rem;
+    }
+    #button{
+        width: 15% !important;
+        height: 4%;
+    }
+}
+@media only screen and (max-width: 420px) {
+    #button{
+        width: 20% !important;
+        height: 4%;
+        padding-top: 5%;
+    }
+}

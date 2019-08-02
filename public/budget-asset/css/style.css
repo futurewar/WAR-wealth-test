@@ -1,0 +1,98 @@
+@font-face {
+    font-family: supernett;
+    src: url(../fonts/Supernett-cn-Font-Family/Supernettcn-LightCondItalic.otf);
+}
+
+@font-face {
+    font-family: coal;
+    src: url(../fonts/coal-hand-luke/CoalhandLuke\ TRIAL.ttf);
+  }
+
+@font-face {
+    font-family: news_gothic;
+    src: url(../fonts/News_Gothic_No.2_W01_Thin/News\ Gothic\ No.2\ W01\ Thin.ttf);
+}
+
+body {
+    background: rgb(204,204,204); 
+    overflow-x: hidden;
+  }
+
+page {
+    background: white;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 15px 0.5cm rgba(0,0,0,0.5);
+  }
+
+page[size="A4"] {  
+    width: 21cm;
+    padding-bottom: 50px;
+  }
+
+.title {
+    border-bottom: 5px solid #7a572b;
+    width: 100%;
+    margin-bottom: 4vh;
+}
+
+.content {
+    padding: 0vh 4vw;
+}
+
+.header p {
+  font-family: supernett;
+  font-size: 1.23em; 
+  margin: .83em 0;
+  font-weight: 600;
+  color: #a18960;
+}
+
+th {
+  width: 85%;
+  font-family: coal;
+  text-align: left;
+  font-weight: normal;
+  color: #a18960;
+  border-bottom: #9d7532 dashed 1px;
+  padding: 4px 0px;
+}
+
+td {
+  font-family: news_gothic;
+  font-weight: 500;
+  color: #04233c;
+  border-bottom: #9d7532 dashed 1px;
+  padding: 4px 0px;
+}
+
+table tr td:nth-child(2) {
+  border-left: #9d7532 dashed 1px;
+}
+
+table tr th:nth-child(2) {
+  border-left: #9d7532 dashed 1px;
+}
+
+#adds-up {
+  padding: 16px 0px;
+  font-weight: 600;
+}
+
+input {
+  border: none;
+  width: 50%;
+  padding-left: 9px;
+  font-size: 14px;
+  font-weight: bolder;
+}
+
+textarea:focus, input:focus{
+  outline: none;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
